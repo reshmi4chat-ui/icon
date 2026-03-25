@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+  <!-- IMPORTANT for PWA -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#007bff">
+
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 100px;
+    }
+    input {
+      padding: 10px;
+      margin: 10px;
+      width: 100px;
+    }
+    button {
+      padding: 10px;
+      background: blue;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Calculator</h1>
+
+  <input type="number" id="num1" placeholder="Number 1">
+  <input type="number" id="num2" placeholder="Number 2">
+
+  <br><br>
+
+  <button onclick="addNumbers()">Add</button>
+
+  <h2 id="result">Result:</h2>
+
+  <script src="app.js"></script>
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+
+</body>
+</html>
