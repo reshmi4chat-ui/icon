@@ -1,7 +1,7 @@
 {
   "name": "Addition Calculator",
   "short_name": "Calculator",
-  "start_url": "/icon/index.html",
+  "start_url": "https://reshmi4chat-ui.github.io/icon/index.html",
   "scope": "/icon/",
   "display": "standalone",
   "background_color": "#ffffff",
