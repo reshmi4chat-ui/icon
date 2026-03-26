@@ -2,7 +2,7 @@
   "name": "Pulse Calculator",
   "short_name": "Pulse Calculator",
   "description": "Pulse Calculator is a polished single-screen calculator for quick addition, subtraction, multiplication, and division.",
-  "start_url": "/index.html",
+  "start_url": ".",
   "scope": "/",
   "display": "standalone",
   "background_color": "#07090d",
@@ -12,11 +12,7 @@
   "lang": "en",
   "icons": [
     {
-      "src": "icon.png",
-      "sizes": "any",
-      "type": "image/png",
-      "purpose": "any"
-    },
+      
     {
       "src": "icon.png",
       "sizes": "192x192",
