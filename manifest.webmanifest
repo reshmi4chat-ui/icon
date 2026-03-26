@@ -10,12 +10,14 @@
     {
       "src": "https://reshmi4chat-ui.github.io/icon/icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "https://reshmi4chat-ui.github.io/icon/icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
