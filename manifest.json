@@ -1,11 +1,18 @@
 {
-  "name": "Addition Calculator",
-  "short_name": "Calculator",
+    "name": "Pulse Calculator",
+  "short_name": "Pulse Calculator",
+  "description": "Pulse Calculator is a polished single-screen calculator for quick addition, subtraction, multiplication, and division.",
+  "start_url",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07090d",
+  "theme_color": "#10131a",
+  "orientation": "portrait",
+  "categories": ["productivity", "utilities"],
+  "lang": "en",
   "start_url": "https://reshmi4chat-ui.github.io/icon/index.html",
   "scope": "/icon/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#007bff",
+  
   "icons": [
     {
       "src": "https://reshmi4chat-ui.github.io/icon/icon.png",
