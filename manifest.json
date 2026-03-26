@@ -1,6 +1,6 @@
 {
-    "name": "Pulse Calculator",
-  "short_name": "Pulse Calculator",
+    "name": "Calculator",
+  "short_name": "Calculator",
   "description": "Pulse Calculator is a polished single-screen calculator for quick addition, subtraction, multiplication, and division.",
   "start_url",
   "scope": "/",
